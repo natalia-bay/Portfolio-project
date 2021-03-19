@@ -1,7 +1,53 @@
 /*font-family: "Montserrat", sans-serif;
 font-family: "Roboto", sans-serif;*/
+:root {
+    --primary-font: font-family: "Roboto", sans-serif;
+    --secondary-font: font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin-top: 160px;
+  color: white;
+  font-family: var(--primary-font);
+text-align: center;
+} 
+
+.background-image {
+  background: url(/images/hero2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-nav {
+  margin-left: 800px;
+}
+
+.navbar-color {
+  background-color: #202020;
+}
+
+ h1, h2, h3, p{
+  color: white;
+}
 
 h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+    margin-top: 400px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84.38px;
+}
+
+h2, h3 {
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 700;
+}
+
+.view-work-button {
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.07px;
 }
