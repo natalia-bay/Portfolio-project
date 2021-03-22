@@ -134,8 +134,3 @@ h3 {
   text-transform: uppercase;
   text-align: left;
 }
-
-header .container {
-  position: relative;
-  z-index: 2;
-}

@@ -56,41 +56,66 @@
     </nav>
     <div class="conatiner">
       <h1 class="page-title">Contact</h1>
-
-      <footer class="position-absolute bottom-0">
-        <div class="container">
-          <div class="d-flex ms-5 hero-name">Ksenia Baiduraeva</div>
-          <div class="social-links d-flex mt-5 mb-0 justify-content-center">
-            <a
-              href="https://www.instragram.com/ksenia_baiduraeva"
-              target="_blank"
-              title="instragram Profile"
-            >
-              <i class="fab fa-instagram" aria-hidden="true"></i>
-            </a>
-            <a
-              href="https://www.facebook.com/kseniya.baiduraeva"
-              target="_blank"
-              title="Facebook Profile"
-            >
-              <i class="fab fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="mailto:k.bayduraeva@gmail.com " title="E-mail link">
-              <i class="far fa-envelope" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="footer-coded">
-            <p>
-              © 2021 Coded by
-              <a
-                href="https://www.linkedin.com/in/natalia-bayduraeva-metaxa/"
-                target="_blank"
-                >natalia</a
+      <section class="resume-section text-center" id="contact">
+        <div class="my-auto">
+          <ul class="fa-ul mb-4 ml-0">
+            <li id="mail-address">
+                <i class="far fa-envelope mr-2 contact-icons"></i
+                > nat.bayduraeva@gmail.com</a
               >
-            </p>
-          </div>
+            </li>
+            <li>
+              <i class="fas fa-phone mr-2 contact-icons"></i> +7 908 472 22 67
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt mr-2 contact-icons"></i> Saint-Petersburg, Russia
+            </li>
+          </ul>
+
+          <p>
+            ...or leave a message below and I will get back to you as soon as
+            possible.
+          </p>
+
+          <form
+            class="contact-form d-flex flex-column align-items-center"
+            action="https://formspree.io/f/mnqlajor"
+            method="POST"
+          >
+            <div class="form-group w-50">
+              <input
+                type="name"
+                class="form-control"
+                placeholder="Name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group w-50 mt-2">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email"
+                name="name"
+                required
+              />
+            </div>
+          
+            <div class="form-group w-50 mt-2">
+              <textarea
+                class="form-control"
+                type="text"
+                placeholder="Message"
+                rows="7"
+                name="name"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-submit btn-secondary w-50 mt-2">Submit</button>
+          </form>
         </div>
-      </footer>
+      </section>
     </div>
   </body>
 </html>
