@@ -135,20 +135,6 @@ h3 {
   text-align: left;
 }
 
-.border-color {
-  border-color: #626466 !important;
-}
-
-.gal-item {
-  overflow: hidden;
-  padding: 8px;
-}
-.gal-item .box {
-  height: 100%;
-  overflow: hidden;
-}
-.box img {
-  height: 100%;
-  width: auto;
-  object-fit: cover;
+.gallery img {
+  box-shadow: #4b4d4e 0px 0px 5px;
 }
