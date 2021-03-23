@@ -15,7 +15,7 @@ body {
 }
 
 .background-image {
-  background-image: url(/images/hero4.jpeg);
+  background-image: url(/images/hero.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -133,4 +133,22 @@ h3 {
   color: #f65282;
   text-transform: uppercase;
   text-align: left;
+}
+
+.border-color {
+  border-color: #626466 !important;
+}
+
+.gal-item {
+  overflow: hidden;
+  padding: 8px;
+}
+.gal-item .box {
+  height: 100%;
+  overflow: hidden;
+}
+.box img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
 }
