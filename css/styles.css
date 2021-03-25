@@ -162,6 +162,10 @@ h3 {
   box-shadow: #4b4d4e 0px 0px 5px;
 }
 
+.play-title {
+  font-style: italic;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 50px;
