@@ -16,7 +16,7 @@ body {
 
 html,
 body,
-.container {
+.hero {
   height: 100%;
 }
 
@@ -139,6 +139,9 @@ footer .footer-coded a {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.about-description {
   text-align: left;
 }
 
@@ -164,6 +167,11 @@ h3 {
 
 .play-title {
   font-style: italic;
+}
+
+.card a {
+  text-decoration: none;
+  color: #9c9d9e;
 }
 
 @media (max-width: 768px) {
