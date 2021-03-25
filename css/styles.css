@@ -165,6 +165,10 @@ h3 {
   box-shadow: #4b4d4e 0px 0px 5px;
 }
 
+.cards .card {
+  box-shadow: #4b4d4e 0px 0px 5px;
+}
+
 .play-title {
   font-style: italic;
 }
