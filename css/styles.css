@@ -90,13 +90,15 @@ h4 {
   text-transform: uppercase;
 }
 
+.social a:hover {
+  color: #9c9d9e !important;
+}
+
 .footer-coded a {
   text-decoration: none;
   color: #9c9d9e;
 }
-.social-links a {
-  font-size: 20px;
-}
+
 .footer-coded a:hover {
   cursor: pointer;
   color: white;
