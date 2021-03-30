@@ -104,6 +104,13 @@ h4 {
   color: white;
 }
 
+footer .email-link {
+  text-decoration: none;
+}
+footer .email-link:hover {
+  color: #9c9d9e !important;
+}
+
 .page-title {
   margin-top: 80px;
 }
