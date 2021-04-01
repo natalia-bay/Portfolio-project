@@ -157,6 +157,18 @@ h3 {
   font-style: italic;
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100% - 75px);
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100% - 75px);
+}
+
 .card a {
   text-decoration: none;
   color: #9c9d9e;
