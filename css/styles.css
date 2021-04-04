@@ -200,7 +200,7 @@ h3 {
   }
 
   .about-h1 {
-    font-size: 23px;
+    font-size: 22px;
   }
 
   .page-title {
@@ -213,5 +213,9 @@ h3 {
 
   .btn-submit {
     width: 300px !important;
+  }
+
+  .display-6 {
+    font-size: 22px;
   }
 }
